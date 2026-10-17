@@ -1,0 +1,21 @@
+﻿venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+._*
+.DS_Store
+
+# Large local source datasets
+brreg-enheter.csv
+signalpost-universe.jsonl.gz
+
+# Keep final submission artifacts; ignore other generated outputs
+out/*
+!out/final-report.json
+!out/final-envelopes.jsonl
+!out/final-profiles.jsonl
+!out/refresh-final.json
+
+# Generated Python package metadata
+*.egg-info/
